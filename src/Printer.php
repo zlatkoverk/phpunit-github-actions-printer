@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestResult;
 use PHPUnit\Framework\TestFailure;
 use PHPUnit\TextUI\ResultPrinter;
 
-class Printer extends ResultPrinter
+class Printer implements ResultPrinter
 {
     protected $currentType = null;
 
